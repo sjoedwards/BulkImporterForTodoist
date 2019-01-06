@@ -29,7 +29,7 @@ const main = async () => {
             }
             console.log(response.status)
         }
-        if (errors) {
+        if (errors.length > 0) {
           console.log('Some tasks failed to be created, these were:')
           for (const error of errors) {
             console.log(error);
