@@ -1,10 +1,16 @@
-Quick and dirty CSV to bulk todoist task importer
+### Quick and dirty CSV to bulk todoist task importer
 
-Input CSV should have 2 columns named Date and Content (case sensitive)
+Add the column headings to your spreadsheet: 'Date', Content'
+Make sure that the date is in YYYY-MM-DD format
+Export your spreadsheet to a CSV
 
-`$ cd todoistbulkimporter`
-`$ touch .env`
-Fill in .env from .env.example
-`$ npm i`
-`$ npm run start`
+- cd todoistbulkimporter
+
+- touch .env
+
+- Fill in .env from .env.example
+
+- npm i
+
+- npm run start
 
